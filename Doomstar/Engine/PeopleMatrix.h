@@ -2,7 +2,7 @@
 
 #include "Person.h"
 
-class Matrix {
+class PeopleMatrix {
   std::unordered_map<std::string, std::shared_ptr<Person>> _people;
 public:
 
