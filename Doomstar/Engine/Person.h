@@ -7,7 +7,7 @@ class Person {
   std::string _uniqueId;
   std::string _name;
   std::unordered_map<std::string, std::shared_ptr<Relationship>> _rels;
-  std::unordered_map<std::string, OpinionVector> _levels;
+  std::unordered_map<std::string, std::shared_ptr<OpinionVector>> _levels;
 
 public:
   explicit Person(const std::string& uniqueId);
